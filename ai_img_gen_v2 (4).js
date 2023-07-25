@@ -896,7 +896,7 @@ function completeGeneration(resultObject, leftCount) {
         imgItem.style.left = '0px';
         imgItem.style.display = 'block';
         imgItem.style.width = '40%';
-        imgItem.style.margin = '0 10px';
+        imgItem.style.margin = '0 30px';
         imgItem.style.height = '100%';
         imgItem.style.position = 'relative';
         imgItem.style.borderRadius = '0px';
