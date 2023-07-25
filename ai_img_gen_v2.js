@@ -1062,7 +1062,7 @@ function addEvents() {
                     redirect: 'follow'
                 };
 
-                fetch("https://stablediffusionapi.com/api/v3/dreambooth", requestOptions)
+                fetch("https://stablediffusionapi.com/api/v4/dreambooth", requestOptions)
                     .then(response => response.text())
                     .then(result => {
                         var resultObject = JSON.parse(result);
