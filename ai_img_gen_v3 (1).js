@@ -1,5 +1,5 @@
 var encryptionKey = '421c954c-a305-4f3e-8b44-f04372b1659f';
-var stableDiffusionAPIkey = 'jSkVTTZbCEXYqcjX0Em0HgGxJCc7YXd5N92z0hElPJugmJB9pZVgmvXp71Ir';
+var stableDiffusionAPIkey = 'XaVI61HoG6UmkdCT5hrG9PgVczKrMcxQ2nMxgjCn8QbgQ1cDwrXLThYWFiD1';
 var loadingSvg = `
     <g transform="translate(80,50)">
     <g transform="rotate(0)">
