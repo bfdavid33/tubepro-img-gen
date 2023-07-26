@@ -1,6 +1,6 @@
 var encryptionKey = '421c954c-a305-4f3e-8b44-f04372b1659f';
 var stableDiffusionAPIkey = 'XaVI61HoG6UmkdCT5hrG9PgVczKrMcxQ2nMxgjCn8QbgQ1cDwrXLThYWFiD1';
-var loadingSvg = `
+svg.innerHTML = `
     <g transform="translate(80,50)">
     <g transform="rotate(0)">
         <circle cx="0" cy="0" r="6" fill="#ffffff" fill-opacity="1">
@@ -717,7 +717,7 @@ function initUI() {
     svg.style.display = 'none';
 
     // Set the content of the SVG element to the SVG markup for the loading spinner
-    svg.innerHTML = loadingSvg;
+  //  svg.innerHTML = loadingSvg;
     buttonElement.appendChild(svg);
     buttonElement.appendChild(buttonLabel);
     button.appendChild(buttonElement);
@@ -880,19 +880,19 @@ function initUI() {
     upscale2button.setAttribute('id', 'btn-upscale2');
     upscale2button.classList.add('btn-upscale');
     upscale2button.setAttribute('data-value', 2);
-    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute('xmlns:xlink', "http://www.w3.org/1999/xlink");
-    svg.setAttribute('style', "margin: 0; background: transparent; display: inline-block; shape-rendering: auto;");
-    svg.setAttribute('width', "40px");
-    svg.setAttribute('height', "40px");
-    svg.setAttribute('viewBox', "0 0 100 100");
-    svg.setAttribute('preserveAspectRatio', "xMidYMid");
-    svg.setAttribute('id', "loading-icon2");
-    svg.classList.add('loading-icon');
-    svg.style.display = 'none';
+ //   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+ //   svg.setAttribute('xmlns:xlink', "http://www.w3.org/1999/xlink");
+ //   svg.setAttribute('style', "margin: 0; background: transparent; display: inline-block; shape-rendering: auto;");
+ //   svg.setAttribute('width', "40px");
+ //   svg.setAttribute('height', "40px");
+ //   svg.setAttribute('viewBox', "0 0 100 100");
+ //   svg.setAttribute('preserveAspectRatio', "xMidYMid");
+ //   svg.setAttribute('id', "loading-icon2");
+ //   svg.classList.add('loading-icon');
+ //   svg.style.display = 'none';
 
     // Set the content of the SVG element to the SVG markup for the loading spinner
-    svg.innerHTML = loadingSvg;
+ //   svg.innerHTML = loadingSvg;
     upscale2buttonElement.appendChild(svg);
     upscale2buttonElement.appendChild(upscale2buttonLabel);
     upscale2button.appendChild(upscale2buttonElement);
@@ -935,19 +935,19 @@ function initUI() {
     upscale3button.setAttribute('id', 'btn-upscale3');
     upscale3button.classList.add('btn-upscale');
     upscale3button.setAttribute('data-value', 3);
-    var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute('xmlns:xlink', "http://www.w3.org/1999/xlink");
-    svg.setAttribute('style', "margin: 0; background: transparent; display: inline-block; shape-rendering: auto;");
-    svg.setAttribute('width', "40px");
-    svg.setAttribute('height', "40px");
-    svg.setAttribute('viewBox', "0 0 100 100");
-    svg.setAttribute('preserveAspectRatio', "xMidYMid");
-    svg.setAttribute('id', "loading-icon3");
-    svg.classList.add('loading-icon');
-    svg.style.display = 'none';
+  //  var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  //  svg.setAttribute('xmlns:xlink', "http://www.w3.org/1999/xlink");
+  //  svg.setAttribute('style', "margin: 0; background: transparent; display: inline-block; shape-rendering: auto;");
+  //  svg.setAttribute('width', "40px");
+  //  svg.setAttribute('height', "40px");
+  //  svg.setAttribute('viewBox', "0 0 100 100");
+  //  svg.setAttribute('preserveAspectRatio', "xMidYMid");
+  //  svg.setAttribute('id', "loading-icon3");
+  //  svg.classList.add('loading-icon');
+  //  svg.style.display = 'none';
 
     // Set the content of the SVG element to the SVG markup for the loading spinner
-    svg.innerHTML = loadingSvg;
+  //  svg.innerHTML = loadingSvg;
     upscale3buttonElement.appendChild(svg);
     upscale3buttonElement.appendChild(upscale3buttonLabel);
     upscale3button.appendChild(upscale3buttonElement);
