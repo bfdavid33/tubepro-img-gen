@@ -1105,18 +1105,8 @@ function completeUpscale(resultObject) {
     for (var a = 0; a < loadingIcons.length; a++) {
         loadingIcons[a].style.display = 'none';
     }
-
     var imgObject = document.getElementById(`result_upscale_img`);
-
-    const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-    const imageUrl = proxyUrl + resultObject.output;
-    fetch(imageUrl)
-        .then(resp => resp.blob())
-        .then(blob => {
-            const url = window.URL.createObjectURL(blob);
-            imgObject.setAttribute('src', url);
-        })
-        .catch((e) => console.log(e));
+    imgObject.setAttribute('src', resultObject.output);
     var parentElement = imgObject.parentElement;
     var childElements = parentElement.getElementsByTagName("a");
     var downloadElement = childElements[0];
