@@ -555,7 +555,7 @@ function initUI() {
     imageContainer.style.alignItems = 'stretch';
     imageContainer.style.justifyContent = 'center';
     imageContainer.style.paddingBottom = '0';
-    imageContainer.setAttribute('id', 'result_container');
+ //   imageContainer.setAttribute('id', 'result_container');
     
 
     // SampleCount Selection
@@ -755,7 +755,7 @@ function initUI() {
     imageLabel.innerHTML = 'Your image will appear below and may take a few seconds to generate.';
     // Image Label
 
-    /*
+    
     // Model Options
     var modelOptions = document.createElement('div');
     modelOptions.style.borderRadius = '0px';
@@ -817,7 +817,7 @@ function initUI() {
         modelItemContainer.appendChild(modelLabel);
         modelOptions.appendChild(modelItemContainer);
     }
-*/
+
     // Model Options
 
     // Upscale Options Container
